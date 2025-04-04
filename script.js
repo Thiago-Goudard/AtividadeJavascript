@@ -1,6 +1,6 @@
 console.log('funcionando')
 //atividade 1
-function somarNumeros(){
+/*function somarNumeros(){
     let total = 0;
     let continuar = true;
     
@@ -27,4 +27,21 @@ function somarNumeros(){
     alert("A soma total é: " + total);  
 }  
 
-somarNumeros();  
+somarNumeros(); */
+//atividade 2
+/*let tempo = 10;  
+
+
+const interval = setInterval(() => {  
+     
+    console.log(tempo);  
+
+     
+    tempo--;  
+
+    
+    if (tempo < 0) {  
+        clearInterval(interval);  
+        console.log("Lançamento!"); 
+    }  
+}, 1000); */ 
