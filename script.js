@@ -46,7 +46,8 @@ const interval = setInterval(() => {
     }  
 }, 1000); */
 
-//atividade 3 
+//atividade 3
+/* 
 const num = parseFloat(prompt('Qual foi o ganho bruto anual da empresa?'));  
 const mes1 = parseFloat(prompt('Digite os gastos do mês janeiro'));  
 const mes2 = parseFloat(prompt('Digite os gastos do mês fevereiro'));  
@@ -69,4 +70,17 @@ if (num < gastoAnual) {
     console.log('Você perdeu dinheiro esse ano');  
 } else {  
     console.log('Você ficou no lucro com ' + lucro);  
-}
+}*/
+
+//atividade 4
+const numeros = [];  
+
+for (let i = 0; i < 4; i++) {  
+    const valor = parseInt(prompt(`Digite o ${i + 1}º valor inteiro:`));  
+    numeros.push(valor);  
+}  
+
+numeros.sort((a, b) => b - a);  
+
+console.log("Números em ordem decrescente:", numeros);  
+alert("Números em ordem decrescente: " + numeros.join(", "));  
